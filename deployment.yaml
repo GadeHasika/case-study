@@ -13,8 +13,9 @@ spec:
         app: quiz-app
     spec:
       containers:
-      - name: quizapp
+      - name: quiz-app
         image: shivaji108/quiz-app:kuberimg4
         ports:
 
         - containerPort: 5000
+
