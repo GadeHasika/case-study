@@ -19,8 +19,8 @@
 
         stage('Push Docker Image to Docker Hub') {
             steps {
-               bat 'docker tag quiz-app:v1 shivaji108/quiz:kuberimg4' 
-                bat 'docker push shivaji108/quiz:kuberimg4'
+               bat 'docker tag quiz-app:v1 shivaji108/sample:kuberimg4' 
+                bat 'docker push shivaji108/sample:kuberimg4'
             }
         }
 
@@ -43,4 +43,5 @@
     }
 
 }
+
 
