@@ -35,7 +35,7 @@
 
     post {
         success {
-            echo "Deployment successful! Movie Review App is now live on Kubernetes."
+            echo "Deployment successful! quiz App is now live on Kubernetes."
         }
         failure {
             echo "Deployment failed. Check Jenkins logs for errors."
@@ -43,5 +43,6 @@
     }
 
 }
+
 
 
