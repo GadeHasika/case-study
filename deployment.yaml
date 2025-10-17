@@ -17,7 +17,8 @@ spec:
         image: shivaji108/quiz:kuberimg4
         ports:
 
-        - containerPort: 5001
+        - containerPort: 5000
+
 
 
 
