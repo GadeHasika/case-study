@@ -14,10 +14,11 @@ spec:
     spec:
       containers:
       - name: quiz-app
-        image: shivaji108/quiz:kuberimg4
+        image: shivaji108/quiz:hasika1
         ports:
 
         - containerPort: 5000
+
 
 
 
