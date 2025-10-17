@@ -6,7 +6,7 @@
         stage('Build Docker Image') {
             steps {
                 echo "Building Docker Image..."
-               bat "docker build -t quiz-app:v1 ."
+               bat "docker build -t quiz:v1 ."
             }
         }
 
@@ -43,6 +43,7 @@
     }
 
 }
+
 
 
 
