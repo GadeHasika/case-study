@@ -13,7 +13,7 @@
         stage('Docker Login') {
             steps {
                 echo "Logging into Docker Hub..."
-                bat 'docker login -u hasika123 -p Hasika@123'
+                bat 'docker login -u hasikagade123 -p Hasika@123'
             }
         }
 
@@ -43,6 +43,7 @@
     }
 
 }
+
 
 
 
