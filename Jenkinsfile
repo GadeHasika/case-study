@@ -13,14 +13,14 @@
         stage('Docker Login') {
             steps {
                 echo "Logging into Docker Hub..."
-                bat 'docker login -u shivaji108 -p Kaveri@1729'
+                bat 'docker login -u hasika123 -p Hasika@123'
             }
         }
 
         stage('Push Docker Image to Docker Hub') {
             steps {
-               bat 'docker tag quiz-app:v1 shivaji108/quiz:hasika1' 
-                bat 'docker push shivaji108/quiz:hasika1'
+               bat 'docker tag quiz-app:v1 hasika123/quiz:hasika1' 
+                bat 'docker push hasika123/quiz:hasika1'
             }
         }
 
@@ -43,6 +43,7 @@
     }
 
 }
+
 
 
 
