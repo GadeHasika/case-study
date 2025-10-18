@@ -19,8 +19,8 @@
 
         stage('Push Docker Image to Docker Hub') {
             steps {
-               bat 'docker tag quiz-app:v1 hasika123/quiz:hasika1' 
-                bat 'docker push hasika123/quiz:hasika1'
+               bat 'docker tag quiz-app:v1 hasikagade123/quiz:hasika1' 
+                bat 'docker push hasikagade123/quiz:hasika1'
             }
         }
 
@@ -43,6 +43,7 @@
     }
 
 }
+
 
 
 
